@@ -14,3 +14,18 @@ end)
 MainSection:NewButton("CamLock", "An op Cam lock glitches when target jumps", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/kenji412/FlipFlopsCam/main/FlipsCamSource"))()
 end)
+
+-- Other
+local OtherSection = Main:NewSection("Others")
+
+OtherSection:NewButton("Anti-Fling", "Anti Fling", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/m9s2Fa51"))()
+end)
+
+OtherSection:NewButton("Anti Lock", "Anti Lock", function()
+    loadstring(game:HttpGet(("https://raw.githubusercontent.com/kenji412/ANTI-LOCK/main/Anti-lock")))()
+end)
+
+OtherSection:NewButton("Free Animation Pack", "Free Animation Pack", function()
+     loadstring(game:HttpGet(("https://raw.githubusercontent.com/kenji412/Free-Animationpack/main/AnimationPack")))()
+end)
